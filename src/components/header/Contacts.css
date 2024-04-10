@@ -1,0 +1,27 @@
+.Container-Contacts{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.Number{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23.4px;
+    text-align: left;
+    margin: 0;
+}
+.Container-Text-Contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.CallFree{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.2px;
+    text-align: left;
+    color: rgba(76, 76, 76, 1);
+    margin: 0;
+}

@@ -1,0 +1,43 @@
+.Container-Header{
+    display: flex;
+    align-items: center;
+    gap: 126px;
+    margin: 57px 260px 57px 260px;
+}
+.Text-HeaderCapybara{
+    position: absolute;
+    z-index: 100;
+    top: 380px;
+    left: 260px;
+}
+.Result-Form{
+    width: 623px;
+    height: 83px;
+    border-radius: 8px 8px 8px 0px;
+    color: white;
+    background: rgba(115, 123, 225, 1);
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58.51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.Term-Form{
+    width: 430px;
+    height: 63px;
+    padding: 12px 18px 12px 18px;
+    border-radius: 0px 0px 8px 8px;
+    background: white;
+    color: rgba(115, 123, 225, 1);
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58.51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}

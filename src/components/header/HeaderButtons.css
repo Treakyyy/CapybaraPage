@@ -1,0 +1,25 @@
+.HeaderButton{
+    border: none;
+    background-color: transparent;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23.4px;
+    color: black;
+    cursor: pointer;
+    width: 176px;
+    height: 39px;
+}
+.HeaderButton:focus{
+    background: rgba(233, 234, 249, 1);
+    color:rgba(79, 88, 201, 1);
+    width: 176px;
+    height: 39px;
+    padding: 8px 24px 8px 24px;
+    border-radius: 4px;
+
+}
+.Container-HeaderButtons{
+    display: flex;
+    gap: 24px;
+}
