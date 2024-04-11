@@ -1,0 +1,38 @@
+.Container-BodyLaboratory{
+    display: flex;
+    gap: 48px;
+    background: linear-gradient(0deg, #E9EAF9 0%, #F5F5FF 100%);
+    padding: 48px 0px 48px 0px;
+}
+.Text-Laboratory{
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 29.4px;
+    text-align: left;
+    color: black;
+}
+.Head-Text-Laboratory{
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43.88px;
+    text-align: left;
+    color: black;
+    margin: 0;
+}
+.Head-Container-Text-Laboratory{
+    margin: 0px 260px 0px 260px;
+    display: flex;
+    flex-direction: column;
+}
+.Send-Button{
+    width: 249px;
+    height: 53px;
+    padding: 12px 18px 12px 18px;
+    border-radius: 8px;
+    color: white;
+    background: rgba(115, 123, 225, 1);
+    cursor: pointer;
+    border: none;
+}

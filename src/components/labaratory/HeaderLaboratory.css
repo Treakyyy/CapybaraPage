@@ -1,4 +1,4 @@
-.Text-HeaderLabaratory{
+.Text-HeaderLaboratory{
     font-family: Montserrat;
     font-size: 24px;
     font-style: italic;
@@ -6,4 +6,5 @@
     line-height: 33.6px;
     text-align: center;
     color: black;
+    margin: 48px 260px 48px 260px;
 }
