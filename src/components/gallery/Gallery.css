@@ -1,0 +1,29 @@
+.Text-Gallery{
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43.88px;
+    text-align: left;
+}
+.Container-Gallery{
+    margin: 46px 260px 46px 260px;
+}
+.Container-Photo-Gallery{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 24px;
+}
+.Container-Up-Photo{
+    display: flex;
+    gap: 24px;
+}
+.Container-RigthUp-Photo{
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+.Container-Down_Photo{
+    gap: 24px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 4fr;
+}
