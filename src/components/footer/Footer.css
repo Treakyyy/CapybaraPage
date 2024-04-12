@@ -1,0 +1,16 @@
+.Text-Footer{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.8px;
+    text-align: left;
+    color: white;
+}
+.Container-Footer{
+    display: flex;
+    padding: 0px 260px 0px 260px;
+    justify-content: space-between;
+    background: rgba(79, 88, 201, 1);
+    align-items: center;
+    height: 150px;
+}

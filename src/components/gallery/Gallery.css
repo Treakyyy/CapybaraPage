@@ -21,9 +21,16 @@
     display: flex;
     gap: 24px;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
-.Container-Down_Photo{
+.Container-Down-Photo{
+    display: flex;
     gap: 24px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 4fr;
+    align-items: start;
+    justify-content: space-around;
+}
+.Container-LeftDown-Photo{
+    display: flex;
+    gap: 24px;
 }

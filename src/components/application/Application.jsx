@@ -1,15 +1,40 @@
-import React from 'react';
+// В компоненте Application
+
+import React, { useEffect, useRef, useState } from 'react';
 import './Application.css'
 import InputApplication from './InputApplication';
-import Check from '../../photo/Check'
+import { useDispatch, useSelector } from 'react-redux';
+import { selectScrollToApplication, setScrollToApplication } from '../../features/scroll/scrollSlice';
 
 const Application = () => {
+
+    const dispatch = useDispatch()
+    const scrollToApplication = useSelector(selectScrollToApplication)
+    const applicationRef = useRef(null)
+    const [showThankYou, setShowThankYou] = useState(false);
+
+    useEffect(() => {
+        if(scrollToApplication){
+            applicationRef.current.scrollIntoView({ behavior: 'smooth' });
+            dispatch(setScrollToApplication(false))
+        }
+    }, [scrollToApplication, dispatch])
+
+    const handleFormSubmit = () => {
+        setShowThankYou(true);
+    };
+
     return (
-        <div className='Container-Application'>
+        <div ref={applicationRef} className='Container-Application'>
             <h2 className='Head-Text-Application'>Заявка на диагностику</h2>
             <p className='Text-Application'>Доверьте свои медицинские исследования надежным капибарам-лаборантам и получите<br /> качественные результаты в кратчайшие сроки!</p>
-            <InputApplication/>
-            <button className='Send-Button-Application'>Отправить<Check/></button>
+            {showThankYou ? (
+                <div className='ThankYou-Message'>
+                    Спасибо за предоставленную информацию, мы свяжемся с вами в ближайшее время.
+                </div>
+            ) : (
+                <InputApplication onSubmit={handleFormSubmit} />
+            )}
         </div>
     );
 };

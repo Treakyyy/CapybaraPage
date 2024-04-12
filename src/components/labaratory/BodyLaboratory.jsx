@@ -3,6 +3,7 @@ import './BodyLaboratory.css'
 import LaboratoryCapybara from '../../photo/LaboratoryCapybara';
 
 const BodyLaboratory = () => {
+
     return (
         <div className='Container-BodyLaboratory'>
             <div className='Head-Container-Text-Laboratory'>

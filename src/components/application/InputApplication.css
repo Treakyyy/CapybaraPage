@@ -1,13 +1,23 @@
 .InputApplication{
     padding: 12px 16px 12px 16px;
     border-radius: 8px;
-    border: none;
+    border: 1px solid rgba(115, 123, 225, 1);
 }
 .Container-InputApplication{
     display: flex;
     justify-content: center;
     gap: 19px;
 }
-.InputApplication:focus{
-    border: 1px solid rgba(115, 123, 225, 1);
+.error{
+    color: red;
+    margin: 0;
+}
+.Container-InputError{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: start;
+}
+.InputApplication.error {
+    border: 2px solid red;
 }
