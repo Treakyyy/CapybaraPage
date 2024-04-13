@@ -1,13 +1,20 @@
 .Container-Header{
     display: flex;
+    flex-direction: column;
     align-items: center;
     gap: 126px;
     margin: 57px 260px 57px 260px;
 }
+.Container-Header-Menu{
+    display: flex;
+    align-items: center;
+    gap: 126px;
+    margin: 0;
+}
 .Text-HeaderCapybara{
     position: absolute;
     z-index: 100;
-    top: 380px;
+    top: 460px;
     left: 260px;
 }
 .Result-Form{
@@ -40,4 +47,69 @@
     justify-content: center;
     align-items: center;
     margin: 0;
+}
+
+@media only screen and (max-width: 1979px) {
+    .Container-Header-Menu{
+        display: flex;
+        align-items: center;
+        gap: 100px;
+        margin: 57px 75px 57px 75px;
+    }
+}
+@media only screen and (max-width: 1440px) {
+    .Container-Header-Menu{
+        display: flex;
+        align-items: center;
+        gap: 50px;
+        margin: 15px 25px 15px 25px;
+    }
+    .Term-Form{
+        max-width: 235px;
+        height: 54px;
+        font-size: 28px;
+        justify-content: start;
+    }
+    .Result-Form{
+        max-width: 350px;
+        height: 54px;
+        font-size: 28px;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .Container-Header-Menu{
+        display: flex;
+    }
+    .Container-Header{
+        margin: 57px 75px 95px 75px;
+        gap: 0;
+    }
+    .Text-HeaderCapybara{
+        position: absolute;
+        z-index: 100;
+        top: 384px;
+        left: 300px; 
+    }
+    .Term-Form{
+        background: rgba(233, 234, 249, 1);
+        height: 54px;
+        font-size: 24px;
+        padding: 0 13px; 
+    }
+    .Result-Form{
+        max-width: 300px;
+        height: 54px;
+        font-size: 24px;
+    }
+    .Mini-Header-Capybara{
+        display: block;
+    }
+    .Big-Header-Capybara{
+        display: none;
+    }
+}
+@media only screen and (max-width: 2560px) and (min-width: 900px){
+    .Mini-Header-Capybara{
+        display: none;
+    }
 }

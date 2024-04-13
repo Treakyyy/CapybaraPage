@@ -9,6 +9,7 @@ import Gallery_2 from '../../photo/Gallery_2';
 import Gallery_1 from '../../photo/Gallery_1';
 import { useDispatch, useSelector } from 'react-redux';
 import { selectScrollToGallery, setScrollToGallery } from '../../features/scroll/scrollSlice';
+import MobileGallery from './MobileGallery';
 
 const Gallery = () => {
 
@@ -26,6 +27,7 @@ const Gallery = () => {
     return (
         <div ref={galleryRef} className='Container-Gallery'>
             <h2 className='Text-Gallery'>Галерея</h2>
+            <MobileGallery/>
             <div className='Container-Photo-Gallery'>
                 <div className="Container-Up-Photo">
                     <Gallery_1/>

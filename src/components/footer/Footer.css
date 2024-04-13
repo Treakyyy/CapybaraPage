@@ -14,3 +14,15 @@
     align-items: center;
     height: 150px;
 }
+@media only screen and (max-width: 900px) {
+    .Container-Footer{
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 18px;
+    }
+    .Text-Footer{
+        text-align: center;
+    }
+}

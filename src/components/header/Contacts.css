@@ -25,3 +25,9 @@
     color: rgba(76, 76, 76, 1);
     margin: 0;
 }
+
+@media only screen and (max-width: 900px) {
+    .Container-Text-Contacts{
+        display: none;
+    }
+}

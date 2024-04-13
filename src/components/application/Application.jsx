@@ -5,6 +5,7 @@ import './Application.css'
 import InputApplication from './InputApplication';
 import { useDispatch, useSelector } from 'react-redux';
 import { selectScrollToApplication, setScrollToApplication } from '../../features/scroll/scrollSlice';
+import CheckForm from '../../photo/CheckForm';
 
 const Application = () => {
 
@@ -26,14 +27,19 @@ const Application = () => {
 
     return (
         <div ref={applicationRef} className='Container-Application'>
-            <h2 className='Head-Text-Application'>Заявка на диагностику</h2>
-            <p className='Text-Application'>Доверьте свои медицинские исследования надежным капибарам-лаборантам и получите<br /> качественные результаты в кратчайшие сроки!</p>
             {showThankYou ? (
-                <div className='ThankYou-Message'>
-                    Спасибо за предоставленную информацию, мы свяжемся с вами в ближайшее время.
+                <div className='Container-Complete-Form'>
+                    <CheckForm/>
+                    <p className='ThankYou-Message'>
+                        Спасибо за предоставленную информацию,<br /> мы свяжемся с вами в ближайшее время.
+                    </p>
                 </div>
             ) : (
+                <>
+                <h2 className='Head-Text-Application'>Заявка на диагностику</h2>
+                <p className='Text-Application'>Доверьте свои медицинские исследования надежным капибарам-лаборантам и получите<br /> качественные результаты в кратчайшие сроки!</p>
                 <InputApplication onSubmit={handleFormSubmit} />
+                </>
             )}
         </div>
     );

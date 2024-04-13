@@ -35,4 +35,31 @@
     background: rgba(115, 123, 225, 1);
     cursor: pointer;
     border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+@media only screen and (max-width: 2560px) and (min-width: 900px){
+    .Mini-Laboratory-Capybara{
+        display: none;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .Big-Laboratory-Capybara{
+        display: none;
+    }
+    .Head-Container-Text-Laboratory{
+        align-items: start;
+        gap: 24px;
+    }
+}
+@media only screen and (max-width: 1479px) {
+    .Container-BodyLaboratory{
+        display: flex;
+        align-items: center;
+        gap: 50px;
+        margin: 15px 25px 15px 25px;
+    }
 }
