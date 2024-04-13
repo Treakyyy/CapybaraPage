@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/CapybaraPage/static/css/main.54918fff.css",
+    "main.js": "/CapybaraPage/static/js/main.4606d3ea.js",
+    "static/media/headercapybara.png": "/CapybaraPage/static/media/headercapybara.347a5a12e8aa309d675d.png",
+    "static/media/Gallery_1.png": "/CapybaraPage/static/media/Gallery_1.8552150b0a031776d556.png",
+    "static/media/Gallery_2.png": "/CapybaraPage/static/media/Gallery_2.1924a751c36bd1b40db3.png",
+    "static/media/Gallery_7.png": "/CapybaraPage/static/media/Gallery_7.8eb0830771a746fc10d0.png",
+    "static/media/laboratorycapybara.png": "/CapybaraPage/static/media/laboratorycapybara.c5d2377896e5131962cd.png",
+    "static/media/Gallery_3.png": "/CapybaraPage/static/media/Gallery_3.f16a5f9e369816126b3c.png",
+    "static/media/Gallery_5.png": "/CapybaraPage/static/media/Gallery_5.f05b49f1cf70b18015ee.png",
+    "static/media/headercapybaramini.png": "/CapybaraPage/static/media/headercapybaramini.3a8ee43cbe7c1b749620.png",
+    "static/media/gallerymini1.png": "/CapybaraPage/static/media/gallerymini1.81378c15cd907270ecc1.png",
+    "static/media/gallerymini2.png": "/CapybaraPage/static/media/gallerymini2.3155dd47551613af16df.png",
+    "static/media/Gallery_6.png": "/CapybaraPage/static/media/Gallery_6.9e0fb9e7d89086e6b4f2.png",
+    "static/media/Gallery_4.png": "/CapybaraPage/static/media/Gallery_4.f609ab75d752e891bf7d.png",
+    "index.html": "/CapybaraPage/index.html",
+    "main.54918fff.css.map": "/CapybaraPage/static/css/main.54918fff.css.map",
+    "main.4606d3ea.js.map": "/CapybaraPage/static/js/main.4606d3ea.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.54918fff.css",
+    "static/js/main.4606d3ea.js"
+  ]
+}
